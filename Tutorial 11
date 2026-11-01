@@ -14,20 +14,20 @@
         <p>my goal i</p>
     </header>
     <nav>
-        <a target="_blank" href="About.html">About |</a>
+        <a id="About" target="_blank" href="About.html">About |</a>
         <a target="_blank" href="Home.html">Home</a>
 
 
     </nav>
     <main>
-        <section>
+        <section id="About">
         <h2>About Me</h2>
         <p> hello I am a begginer web developer learning HTML and CSS.This is my Portfolio.</p>
         <img src="icon1.jpg" height="200px" width="300px" alt="my picture">>
         </section>
    
          
-        <section>
+        <section id="Skill">
             <h1>Portfolio Info</h1>
             <h2>1.My Skill</h2>
                 <p>Show the technology you are learning</p>
@@ -39,11 +39,11 @@
         </section>
         <section>
             <h2>2.My Projects</h2>
-            <article>
+            <article class="project">
                 <p>My First Project</p>
                 <a target="_blank" href="bookmark.html">First Page</a>
             </article>
-            <article>
+            <article class="project">
                 <p>Second Project</p>
                 <a target="_blank" href="Demo Form.html">First Form</a>
             </article>
