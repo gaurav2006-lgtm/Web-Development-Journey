@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <p>My name is gaurav and i love to learn new things and currently im start learning Web development.
+         my goal is become <u>Full stack developer</u> in 3-month</p>
+        <p>my goal i</p>
+    </header>
+    <nav>
+        <a target="_blank" href="About.html">About |</a>
+        <a target="_blank" href="Home.html">Home</a>
+
+
+    </nav>
+    <main>
+        <section>
+        <h2>About Me</h2>
+        <p> hello I am a begginer web developer learning HTML and CSS.This is my Portfolio.</p>
+        <img src="icon1.jpg" height="200px" width="300px" alt="my picture">>
+        </section>
+   
+         
+        <section>
+            <h1>Portfolio Info</h1>
+            <h2>1.My Skill</h2>
+                <p>Show the technology you are learning</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+        </section>
+        <section>
+            <h2>2.My Projects</h2>
+            <article>
+                <p>My First Project</p>
+                <a target="_blank" href="bookmark.html">First Page</a>
+            </article>
+            <article>
+                <p>Second Project</p>
+                <a target="_blank" href="Demo Form.html">First Form</a>
+            </article>
+        </section>
+        <section>
+            <h3>Contact Me</h3>
+        <input type="text" name="yourname" id="name" placeholder="Enter Full Name">
+        <label for="name">Name:</label>
+        <input type="email" name="YourMail" id="email" placeholder="Enter Email">
+        <label for="email">Email:</label>
+        </section>
+
+
+    </main>
+    <footer>
+        Copyrigt reserved 2020-21
+    </footer>
+
+</body>
+
+</html>
