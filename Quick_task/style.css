@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {background-color: bisque;
+
+}
+
+.form-section{
+    background-color: lightcyan;
+}
+
+a:link{
+    color: blue;
+}
+
+a:hover{
+    color: black;
+}
+
+#personal input:focus{
+   border-color: rgb(187, 98, 98);
+outline-color: black;
+outline-width: 1cm;
+}
+#personal:focus-within{
+    background-color:lightslategray
+}
+
+li:first-child{
+    background-color: aqua;
+}
+
+button:active{
+    background-color: lightseagreen;
+    box-shadow:2px 2px 5px black
+
+}
+
+
+
+
+
+input{
+    background-color: lightyellow ;
+    border: 2px solid black;
+}
