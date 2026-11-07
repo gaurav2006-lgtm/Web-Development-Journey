@@ -1,0 +1,52 @@
+#body_content{
+    background-color: rgba(170, 143, 210, 0.681);
+}
+
+
+
+*{
+    font-family: sans-serif;
+    
+}
+
+header>h3{
+    font-weight: 600;
+     text-decoration:underline;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+    text-decoration-color:grey ;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.Content{
+    line-height: 18px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+input:active{
+    background-color:pink;
+}
+
+input{
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+}
+
+#quote{
+    background-color: red;
+    color: blue;
+}
+
+#para1{
+    font-style: italic;
+}
+
+
