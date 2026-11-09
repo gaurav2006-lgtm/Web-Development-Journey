@@ -1,0 +1,81 @@
+*{
+     box-sizing: border-box; 
+}
+
+/* 1. */
+body{
+    font-size: 16px;
+    
+}
+
+/* 2. */
+header>h1{
+    font-size: 2rem;
+
+}
+
+/* 3 */
+#About{
+    padding: 2em;
+}
+
+/* 4. */
+#Skill{
+     width: 80%;
+    border: 1px solid black;
+}
+
+
+/* 5 */
+#Contact{
+    width: 50vw;    
+}
+
+
+
+header{
+    height: 20vh;
+    
+}
+
+#Main_container{
+    width: 80vmin;
+    margin: auto;
+}
+
+footer{
+    font-size: 1.2em;
+}
+
+#btn:hover{
+    background-color: aqua;
+}
+
+#email:focus{
+    background-color: rgba(18, 169, 219, 0.615);
+    outline: 1px solid black;
+} 
+
+
+
+
+/* Extra */
+.Main{
+    background-color: bisque;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+
+#About>h2{
+    color: aquamarine;
+}
+#Skill>h2{
+    color: blue;
+}
+#Contact>h2{
+    color: brown;
+}
+
+
