@@ -1,0 +1,53 @@
+#nav_list {
+    list-style: none;
+    display: flex;
+  padding: 1px;
+}
+
+section>ul {
+    list-style-type: "🟢";
+    line-height: 20px;
+
+}
+
+#list:hover {
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 50%;
+}
+
+nav ul>li{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+
+button:hover{
+    background-color: bisque;
+    
+}
+button{
+    box-shadow: 2px 2px 5px 2px lightgreen;
+}
+
+h1{
+   text-shadow: 10px 10px 12px #7d6ce7;
+}
+
+.content{
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px 3px black;
+    
+}
+
+input:focus{
+    outline: 1px solid rgb(227, 167, 15);
+}
+
+
+/* i dont know why this not applying on my page please help me to understand this and tell me why this is not apply?  by the i comment out this as my doubt i try this one but its not showing so i comment out this */
+/* #navigation{ 
+display: flex;
+flex-direction: row;
+}
