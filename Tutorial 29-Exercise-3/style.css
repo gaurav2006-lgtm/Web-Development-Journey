@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+
+}
+
+#content{
+    margin: 10px;
+    border: 2px solid rgb(246, 236, 236);
+    border-radius: 8px;
+   width: 396px;
+    height: 640px;
+    position: relative;
+    top: 0px;
+    left: 500px;
+    
+}
+
+#nature{
+        margin: 10px;
+    border: 2px solid rgb(246, 236, 236);
+    border-radius: 8px;
+    height: 330px;
+    width: 373px;
+}
+
+#keyword>p{
+    border: 2px solid rgb(246, 236, 236);
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.word{
+   margin: 10px;
+    padding: 7px;
+    color: rgba(146, 143, 143, 0.79);
+    
+}
+
+h2{
+      /* margin: 0px; */
+    text-indent: 10px;
+    /* color: rgba(167, 164, 164, 0.882); */
+    
+}
+
+#para{
+    text-align: justify;
+    margin: 10px;
+    color: rgba(146, 143, 143, 0.79);
+}
+
+button{
+    border: 1px solid rgba(122, 244, 244, 0.433);
+    border-radius: 5px;
+        padding: 8px;
+        text-align: center;
+        background-color: rgba(122, 244, 244, 0.433);
+        color: rgb(15, 131, 131);
+        position: relative;
+        top: 8px;
+        left: 148px;
+
+}
+#btn:active{
+    background-color: rgb(232, 228, 236);
+}
