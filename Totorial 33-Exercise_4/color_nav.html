@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolor NavBar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="get">
+        <header>
+            <h1>Student Registration</h1>
+
+            <nav class="bar">
+                <a  href="#About">About</a>
+                <a  href="#Conatct">Contact</a>
+                <a href="#service">Services</a>
+
+            </nav>
+        </header>
+
+        <main id="main">
+            <section id="personal" class="form-section">
+                <h2>Personal Information</h2>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </section>
+
+            <section id="service" class="form-section">
+                <h2>Education</h2>
+
+                <label for="course">Choose Course:</label>
+                <select id="course">
+                    <option>BCA</option>
+                    <option>BSc IT</option>
+                    <option>BTech</option>
+                </select>
+            </section>
+
+            <section id="skills" class="form-section">
+                <h2>Skills</h2>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+            <section class="btn">
+
+            <button type="submit">Submit</button>
+            </section>
+        </main>
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    background-color: darkcyan;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+
+
+}
+
+nav a {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px;
+
+
+}
+
+:root {
+    --deffcolor: lightgreen;
+    --defseccolor: lightblue;
+    --deftcolor: rgba(200, 197, 197, 0.637);
+    --defpcolor: pink;
+
+}
+
+html {
+    background-color: var(--deftcolor)
+}
+
+nav a:first-child {
+    background-color: var(--deffcolor);
+}
+
+nav a:nth-child(2) {
+    background-color: var(--defseccolor);
+}
+
+nav a:last-child {
+    background-color: var(--defpcolor);
+}
+
+.form-section {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    /* padding: 5px */
+    padding-bottom: 4px;
+    
+}
+
+
+#personal {
+    margin-top: 20px;
+    background-color: var(--deffcolor);
+    
+
+}
+
+#service {
+    padding-bottom: 4px;
+    background-color: var(--defseccolor);
+    
+}
+
+#skills {
+    background-color: var(--defpcolor);
+}
+
+button {
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 15px 20px 15px 20px;
+    
+    
+}
+
+button:hover {
+    background-color: rgb(194, 108, 3);
+}
+
+a:link {
+    color: blue;
+}
+
+.btn{
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+}
